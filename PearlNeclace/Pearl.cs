@@ -17,7 +17,7 @@
                 _size = value;
             }
         }
-        public PearlColor Color { get; set; }
+        public PearlColor Color { get; private set; }
         public PearlShape Shape { get; set; }
         public PearlType Type { get; set; }
         public decimal Price
