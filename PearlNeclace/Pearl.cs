@@ -19,7 +19,7 @@
         }
         public PearlColor Color { get; set; }
         public PearlShape Shape { get; set; }
-        public PearlType Type { get; set; }
+        public PearlType Type { get; private set; }
         public decimal Price
         {
             get
